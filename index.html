@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navigation">
+            <img src="/img/logo.svg" alt="" class="header__logo">
+            <nav class="header-nav" id="myDropdown">
+                <section class="wrapper">
+                    <input type="checkbox" id="bur" class="burger">
+                    <label for="bur" class="burger-img"></label>
+                        <ul class="menu">
+                            <li class="menu__item ">
+                                <a href="#open" class="menu__link">Main</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contacts" class="menu__link">Contact</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#reviews" class="menu__link">Reviews</a>
+                            </li>
+                        </ul>
+                </section>
+            </nav>
+        </div>
+</header>
+<main class="main">
+    <section class="open" id="open">
+        <h1 class="open__title">Ut enim ad minim veniam, quis nostrud exercitation </h1>
+        <div class="open-video">
+            <p class="open-video__title">Lorem ipsum dolor sit amet</p>
+            <div class="open-video-video">
+                <iframe class="open-video-video__link"  src="https://www.youtube.com/embed/xcJtL7QggTI"  frameborder="0" allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="pay">
+        <div class="pay-icons">
+            <img src="/img/icons.svg" alt="" class="pay-icons__icons">
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contacts-info">
+            <h2 class="contacts-info__title">Lorem ipsum dolor sit amet <span>consectetur adipiscing elit</span></h2>
+            <p class="contacts-info__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="contacts-info__text"> Ut enim ad minim veniam</p>
+        </div>
+        <div class="contacts-question">
+            <h2 class="contacts-question__title">Sign up right now</h2>
+            <form action="" class="contacts-question__form">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="text" name="surname" placeholder="Your surname">
+                <input type="email" name="email" placeholder="Your email">
+                <input type="tel" name="phone" placeholder="Your phone">
+                <input type="submit" value="START">
+            </form>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <h2 class="reviews__title">Lorem ipsum dolor sit amet <span>consectetur adipiscing elit</span>, sed do eiusmod tempor </h2>
+        <div class="reviews-comments">
+            <div class="reviews-comments-human">
+                <img src="/img/image2human1.png" alt="" class="reviews-comments-human__img">
+                <div class="reviews-comments-human__name">Martin Krüger</div>
+                <div class="reviews-comments-human__city">Mannheim</div>
+                <div class="reviews-comments-human__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </div>
+                <div class="reviews-comments-human__salary">4,271$</div>
+            </div>
+            <div class="reviews-comments-human">
+                <img src="/img/image4human2.png" alt="" class="reviews-comments-human__img">
+                <div class="reviews-comments-human__name">William Johnson</div>
+                <div class="reviews-comments-human__city">Manchester</div>
+                <div class="reviews-comments-human__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                <div class="reviews-comments-human__salary">5,111$</div>
+            </div>
+            <div class="reviews-comments-human">
+                <img src="/img/image3human3.png" alt="" class="reviews-comments-human__img women">
+                <div class="reviews-comments-human__name">Rosita Caballero</div>
+                <div class="reviews-comments-human__city">Sevilla</div>
+                <div class="reviews-comments-human__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                <div class="reviews-comments-human__salary">2,920$</div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <p class="footer__text">Copyright © 2021 — Push Button System Ltd</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
