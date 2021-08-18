@@ -66,14 +66,14 @@ body{
 }
     .main{
         .open{
-            background: url(/img/bg_header_mobile.png);
+            background: url(./img/bg_header_mobile.png);
             background-position: center;
             background-size: cover;
             display: flex;
             flex-direction: column;
             @media  screen and (min-width:768px) {
                 flex-direction: row;
-                background: url(/img/bg_header.png) 100% 100% no-repeat;
+                background: url(./img/bg_header.png) 100% 100% no-repeat;
                 background-position: center;
                 background-size: cover;
                 justify-content: center;
@@ -148,11 +148,11 @@ body{
         .contacts{
             display: flex;
             flex-direction: column;
-            background: url(/img/bg_form_mobile.png) 100% 100% no-repeat;
+            background: url(./img/bg_form_mobile.png) 100% 100% no-repeat;
             background-position: center;
             background-size: cover;
             @media  screen and (min-width:768px) {
-                background: url(/img/1bg_form.png) 100% 100% no-repeat;
+                background: url(./img/1bg_form.png) 100% 100% no-repeat;
                 background-position: center;
                 background-size: cover;
                 flex-direction: row;
